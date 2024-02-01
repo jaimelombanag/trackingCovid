@@ -15,7 +15,9 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: Container(),
+      home: Container(
+        child: const Text('evertec'),
+      ),
     );
   }
 }
