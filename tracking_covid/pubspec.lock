@@ -349,8 +349,16 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "3.3.0+1"
+  route_manager:
+    dependency: "direct main"
+    description:
+      name: route_manager
+      sha256: "442b91edec54663441a2e497fea5ed80a5ce45d39f926d717e80074dae160dcd"
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.0.1+1"
   shared_preferences:
-    dependency: transitive
+    dependency: "direct main"
     description:
       name: shared_preferences
       sha256: "81429e4481e1ccfb51ede496e916348668fd0921627779233bd24cc3ff6abd02"
