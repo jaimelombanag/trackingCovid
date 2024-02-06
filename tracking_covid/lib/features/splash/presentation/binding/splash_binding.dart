@@ -4,7 +4,6 @@ import 'package:tracking_covid/features/splash/presentation/controller/splash_co
 class SplashBinding extends Bindings {
   @override
   void dependencies() {
-    print("Bonding");
     Get.lazyPut(() => SplashController(tokenLocalRepository: Get.find()));
   }
 }

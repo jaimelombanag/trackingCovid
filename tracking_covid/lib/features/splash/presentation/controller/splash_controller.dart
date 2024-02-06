@@ -1,6 +1,5 @@
 import 'package:get/get.dart';
 import 'package:tracking_covid/core/routes/covid_navigation.dart';
-import 'package:tracking_covid/features/splash/data/datasource/token_local_repository_impl.dart';
 import 'package:tracking_covid/features/splash/domain/repository/token_local_repository.dart';
 
 class SplashController extends GetxController {
@@ -20,7 +19,6 @@ class SplashController extends GetxController {
       //TODO se debe enviar a la home persistiendo los datos que devuelve un api con el token, pero por pruebas direcciona a login
       Get.offNamed(CovidRoutes.login);
     } else {
-      print("Se dirige al login");
       Get.offNamed(CovidRoutes.login);
     }
   }
