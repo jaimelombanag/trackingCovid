@@ -1,4 +1,5 @@
 import 'package:get/route_manager.dart';
+import 'package:tracking_covid/features/splash/presentation/binding/splash_binding.dart';
 import 'package:tracking_covid/features/splash/presentation/view/splash_screen.dart';
 
 class CovidRoutes {
@@ -13,23 +14,24 @@ class CovidPages {
   static final pages = [
     GetPage(
       name: CovidRoutes.splash,
-      page: () => const SplashScreen(),
+      page: () => SplashScreen(),
+      binding: SplashBinding(),
     ),
     GetPage(
       name: CovidRoutes.login,
-      page: () => const SplashScreen(),
+      page: () => SplashScreen(),
     ),
     GetPage(
       name: CovidRoutes.home,
-      page: () => const SplashScreen(),
+      page: () => SplashScreen(),
     ),
     GetPage(
       name: CovidRoutes.detail,
-      page: () => const SplashScreen(),
+      page: () => SplashScreen(),
     ),
     GetPage(
       name: CovidRoutes.region,
-      page: () => const SplashScreen(),
+      page: () => SplashScreen(),
     )
   ];
 }
